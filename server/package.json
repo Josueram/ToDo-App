@@ -1,0 +1,34 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josueram/ToDo-App.git"
+  },
+  "keywords": [
+    "ReactNative",
+    "NodeJS",
+    "MySQL"
+  ],
+  "author": "Josué Ramírez <josueramirez0110@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Josueram/ToDo-App/issues"
+  },
+  "homepage": "https://github.com/Josueram/ToDo-App#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
